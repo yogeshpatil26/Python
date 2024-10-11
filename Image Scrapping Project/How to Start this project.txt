@@ -1,0 +1,33 @@
+Project - Image scrapping
+
+Pre- Requisites systems:
+1. Install Python3
+2. Install Visual Studio Code 
+
+
+STEPS TO START PROJECT IN YOU LOCALHOST:
+
+1. Open Image Scrapping folder in Visual studio code 
+	a) Open Visual Studio Code
+ 	b) Select File > Open Folder > Choose Image Scraping folder
+
+2. Open app.py file
+
+3. Open Terminal 
+	a) Select Terminal > New Terminal
+
+4. Install Flask in System
+	a) Type following command in terminal : "python3 -m pip install flask"
+
+5. Install other required sub-libraries
+	a) Type following command in terminal : "python3 -m pip install -r requirements.txt"
+
+6. Run the app.py file:
+	a) Type in Terminal: python3 app.py 
+
+7. Open URL in Browser: 
+	a) After successful execution of app.py, Scrapper.log file should be created in "image scrapping" folder. 
+	b) Open Scrapper.log file and copy the http URL as follow and Open in Browser "* Running on http://127.0.0.1:5000"
+8. Search for any image :
+	a) Enter images required in search box and search.
+	b) All images related to search will be stored in "Images Scrapping/Images" folder.
